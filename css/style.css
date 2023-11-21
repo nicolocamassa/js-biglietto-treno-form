@@ -11,6 +11,7 @@ body{
     overflow: hidden;
 }
 
+/* La sezione mette gli elementi al centro */
 section{
     width: 100vw;
     height: 100vh;
@@ -20,56 +21,67 @@ section{
     background-color: rgb(240, 240, 240);
 }
 
+/* Contenitore centrato del biglietto e della form*/
 .ticket-form-container{
     width: 400px;
     margin: 0 auto;
 }
 
+/* Stilizzazione testo per i titoli */
 .title{
     margin-right: 100px;
     font-weight: 800;
     margin-bottom: 60px;
 }
+
+/* Contenuto */
 .content{
     border-radius: 10px;
 }
 
+/* Stilizzazione dei bottoni */
 .btn-css-modify{
     width: 100%;
     background-color: #343CFF;
     padding: 10px 0;
-    margin-top: 60px;
     border: none;
     color: white;
     border-radius: 10px;
 }
 
+/* Sfondo blu */
 .bg-blue{
     background-color: #343CFF;
     color: white;
+
 }
 
+/* Font massima weight */
 .font-weight-800{
     font-weight: 800;
 }
 
+/* Font weight media */
 .font-weight-500{
     font-weight: 500;
 }
 
+/* Separatore per la rappresentazione del viaggio */
 .separator{
     display: flex;
     align-items: center;
   }
   
+  /* Padding tra le linee */
   .separator i{
-    padding: 0 0rem; /* creates the space */
+    padding: 0 0rem;
   }
   
   .separator .line{
     flex: 1;
   }
 
+  /* Stile delle line della rappresentazione */
   .line:nth-child(1){
     border: 1px solid #343CFF;
   }
