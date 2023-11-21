@@ -5,6 +5,8 @@ button.addEventListener('click', function () {
     let age = document.getElementById('age').value;
     let km = document.getElementById('distance').value;
 
+   
+
     /* Inizializzazione dello sconto e del prezzo standard per km */
     let discount;
     const priceKm = 0.21;
@@ -24,6 +26,9 @@ button.addEventListener('click', function () {
 
     /* Output */
     document.getElementById('price').innerHTML = totalDiscount.toFixed(2);
+
+    console.log(totalDiscount.toFixed(2));
+
 })
 
 
