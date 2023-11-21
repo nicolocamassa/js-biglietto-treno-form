@@ -24,10 +24,12 @@ button.addEventListener('click', function () {
     let discountCalc = ((km * priceKm) * discount) / 100;
     let totalDiscount = (km * priceKm) - discountCalc;
 
+    
+    document.getElementById("ticketSectionForm").style.display = 'none';
+    document.getElementById("ticketSectionForm").style.position = 'absolute';
     /* Output */
     document.getElementById('price').innerHTML = totalDiscount.toFixed(2);
 
-    console.log(totalDiscount.toFixed(2));
 
 })
 

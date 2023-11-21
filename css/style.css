@@ -8,18 +8,20 @@
 
 body{
     font-family: 'Inter';
+    overflow: hidden;
 }
 
 section{
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgb(240, 240, 240);
 }
 
 .ticket-form-container{
-    max-width: 500px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -41,3 +43,39 @@ section{
     color: white;
     border-radius: 10px;
 }
+
+.bg-blue{
+    background-color: #343CFF;
+    color: white;
+}
+
+.font-weight-800{
+    font-weight: 800;
+}
+
+.font-weight-500{
+    font-weight: 500;
+}
+
+.separator{
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator i{
+    padding: 0 0rem; /* creates the space */
+  }
+  
+  .separator .line{
+    flex: 1;
+  }
+
+  .line:nth-child(1){
+    border: 1px solid #343CFF;
+  }
+
+  .line:nth-last-child(1){
+    border: 1px dashed black;
+  }
+
+
